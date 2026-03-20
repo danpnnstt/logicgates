@@ -1,0 +1,6 @@
+{
+    "block.logicgates.and_gate": "And Gate",
+    "block.logicgates.or_gate": "Or Gate",
+    "block.logicgates.xor_gate": "Xor Gate",
+    "block.logicgates.not_gate": "Not Gate"
+}
