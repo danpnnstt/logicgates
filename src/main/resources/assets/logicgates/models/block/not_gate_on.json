@@ -1,0 +1,49 @@
+{
+    "parent": "minecraft:block/thin_block",
+    "textures": {
+        "particle": "logicgates:block/gate_side",
+        "top": "logicgates:block/not_gate_on",
+        "side": "logicgates:block/gate_side",
+        "bottom": "logicgates:block/gate_side"
+    },
+    "elements": [
+        {
+            "from": [
+                0,
+                0,
+                0
+            ],
+            "to": [
+                16,
+                2,
+                16
+            ],
+            "faces": {
+                "up": {
+                    "texture": "#top",
+                    "cullface": "up"
+                },
+                "down": {
+                    "texture": "#bottom",
+                    "cullface": "down"
+                },
+                "north": {
+                    "texture": "#side",
+                    "cullface": "north"
+                },
+                "south": {
+                    "texture": "#side",
+                    "cullface": "south"
+                },
+                "east": {
+                    "texture": "#side",
+                    "cullface": "east"
+                },
+                "west": {
+                    "texture": "#side",
+                    "cullface": "west"
+                }
+            }
+        }
+    ]
+}
