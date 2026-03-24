@@ -1,6 +1,9 @@
 {
-    "block.logicgates.and_gate": "And Gate",
-    "block.logicgates.or_gate": "Or Gate",
-    "block.logicgates.xor_gate": "Xor Gate",
-    "block.logicgates.not_gate": "Not Gate"
+    "block.logicgates.and_gate":  "AND Gate",
+    "block.logicgates.or_gate":   "OR Gate",
+    "block.logicgates.xor_gate":  "XOR Gate",
+    "block.logicgates.not_gate":  "NOT Gate",
+    "block.logicgates.and5_gate": "AND Gate (5-Input)",
+    "block.logicgates.or5_gate":  "OR Gate (5-Input)",
+    "block.logicgates.xor5_gate": "XOR Gate (5-Input)"
 }

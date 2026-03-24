@@ -1,12 +1,34 @@
 {
     "variants": {
-        "facing=north,powered=false": { "model": "minecraft:block/comparator" },
-        "facing=east,powered=false":  { "model": "minecraft:block/comparator", "y": 90 },
-        "facing=south,powered=false": { "model": "minecraft:block/comparator", "y": 180 },
-        "facing=west,powered=false":  { "model": "minecraft:block/comparator", "y": 270 },
-        "facing=north,powered=true":  { "model": "minecraft:block/comparator_on" },
-        "facing=east,powered=true":   { "model": "minecraft:block/comparator_on", "y": 90 },
-        "facing=south,powered=true":  { "model": "minecraft:block/comparator_on", "y": 180 },
-        "facing=west,powered=true":   { "model": "minecraft:block/comparator_on", "y": 270 }
+        "facing=north,powered=false": {
+            "model": "logicgates:block/xor_gate"
+        },
+        "facing=north,powered=true": {
+            "model": "logicgates:block/xor_gate_on"
+        },
+        "facing=east,powered=false": {
+            "model": "logicgates:block/xor_gate",
+            "y": 90
+        },
+        "facing=east,powered=true": {
+            "model": "logicgates:block/xor_gate_on",
+            "y": 90
+        },
+        "facing=south,powered=false": {
+            "model": "logicgates:block/xor_gate",
+            "y": 180
+        },
+        "facing=south,powered=true": {
+            "model": "logicgates:block/xor_gate_on",
+            "y": 180
+        },
+        "facing=west,powered=false": {
+            "model": "logicgates:block/xor_gate",
+            "y": 270
+        },
+        "facing=west,powered=true": {
+            "model": "logicgates:block/xor_gate_on",
+            "y": 270
+        }
     }
 }

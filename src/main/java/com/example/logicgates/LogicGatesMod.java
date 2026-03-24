@@ -24,6 +24,9 @@ public class LogicGatesMod {
             event.accept(ModBlocks.OR_GATE_ITEM);
             event.accept(ModBlocks.XOR_GATE_ITEM);
             event.accept(ModBlocks.NOT_GATE_ITEM);
+            event.accept(ModBlocks.AND5_GATE_ITEM);
+            event.accept(ModBlocks.OR5_GATE_ITEM);
+            event.accept(ModBlocks.XOR5_GATE_ITEM);
         }
     }
 }
